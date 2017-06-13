@@ -3,7 +3,7 @@
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/benpetrosky/extended-angular-walkthrough",
   "ignore": [
     "**/.*",
     "node_modules",

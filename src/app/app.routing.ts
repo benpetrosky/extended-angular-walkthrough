@@ -4,6 +4,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { AlbumComponent } from './album/album.component';
+import { AlbumDetailComponent }   from './album-detail/album-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'albums',
     component: AlbumComponent
+  },
+  {
+    path: 'albums/:id',
+    component: AlbumDetailComponent
   }
 ];
 
